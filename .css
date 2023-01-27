@@ -1,0 +1,129 @@
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:rgb(247, 239, 239);
+}
+.container10 {
+    font-size: 30px;
+    color:rgb(247, 239, 239);
+}
+.container7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#about {
+    margin-left: 1300px; /* shift the section 50px to the right */
+    margin-top: 100px; /* shift the section 25px down */
+}
+#contact {
+    margin-left: -1000px; /* shift the section 50px to the right */
+    margin-top: -100px; /* shift the section 25px down */
+}
+.thick_center_line{
+    font-weight: 900;
+    border-bottom: 1px solid rgb(240, 159, 9);
+}
+.container8 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container01 {
+    margin-left: 50px;
+   
+}
+.container5 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+img {
+    z-index: 2;
+  
+}
+p {
+    
+    z-index: 2;
+}
+.hidden {
+    
+        visibility: hidden;
+      
+}
+#about p {
+    font-size: 1.5em; /*increase the font size by 1.5em*/
+}
+select {
+    /* styling for the select box */
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  option {
+    /* styling for the options */
+    font-size: 16px;
+    padding: 10px;
+  }
+  .row1 {
+    width: 33%;
+}
+.row2 {
+    width: 33%;
+}
+.row3 {
+    width: 34%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+    font-size: 30px; /* or any other size */
+    margin-left: 100px;
+}
+.schedule-service {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .schedule-service a {
+    color: #000;
+    text-decoration: none;
+  }
+  
